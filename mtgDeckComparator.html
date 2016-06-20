@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/mtgDeckComparator.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="js/mtgDeckComparator.js"></script>
+	</head>
+	<body>
+		<h1>MTG Deck Comparator</h1>
+		<div class="deckInputsGroup">
+			<div class="deck1">
+				<h3>Deck 1</h3>
+				<div>
+					<label for="deck1Selector">Method: </label>
+					<select name="deck1Selector" id="deck1Selector">
+						<option selected>Text</option>
+						<option >Tappedout.net</option>
+						<option>SCV</option>
+						<option>File</option>
+					</select>
+				</div>
+				<div class="deck1InputGroup" id="deck1InputGroup">
+				</div>
+			</div>
+			<div class="deck2">
+				<h3>Deck 2</h3>
+				<div>
+					<label for="deck2Selector">Method: </label>
+					<select name="deck2Selector" id="deck2Selector">
+						<option selected>Text</option>
+						<option >Tappedout.net</option>
+						<option>SCV</option>
+						<option>File</option>
+					</select>
+				</div>
+				<div class="deck2InputGroup" id="deck2InputGroup">
+				</div>
+			</div>
+		</div>
+		<div class="compareButtonDiv">
+			<button id="compareButton">
+				<span class="ui-compareButton-text">COMPARE!</span>
+			</button>
+		</div>
+		<div class="compareDiv" id="compareDiv">
+		</div>
+	</body>
+</html>
+

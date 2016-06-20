@@ -1,0 +1,13 @@
+textarea {
+	resize: none;
+}
+
+div.deckInputsGroup {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.deck1, .deck2 , .deck1Missing, .deck2Missing, .deckShared {
+	width: 400px;
+	float: left;
+}
